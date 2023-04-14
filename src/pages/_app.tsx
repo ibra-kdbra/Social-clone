@@ -11,13 +11,13 @@ const App = ({ Component, pageProps }: AppProps) => {
   if (isSSR) return null;
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <div className="flex gap-6 md:gap-20">
         <div className="h-[92vh] overflow xl:hover:overflow-auto">
-          <Sidebar/>
+          <Sidebar />
         </div>
         <div className="mt-4 flex flex-col gap-10 overflow-auto h-[88vh] videos flex-1">
-      <Component {...pageProps} />
+          <Component {...pageProps} />
         </div>
       </div>
     </div>
