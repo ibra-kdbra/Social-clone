@@ -10,5 +10,6 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-`` 
+```
+
 I built this project in early 2022 when the google cloud store was free and didn't have a plan until late early 2022 so this project will be continued when i have money credit card money........
